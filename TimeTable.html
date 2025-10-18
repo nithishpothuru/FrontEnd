@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TimeTable</title>
+    <style>
+        body{
+            background-color: rgba(224, 245, 244, 0.668);
+        }
+        .header{
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: #19183be6;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        text-align: center;
+        justify-items: center;
+        align-items: center;
+    }
+    label{
+        color:white;
+        padding-right:30px
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-top: 20px;
+    }
+    th, td{
+        padding: 10px;
+    }
+    footer{
+        height: 20%;
+        width: 100%;
+        background-color: #19183be6;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        font-size: large;
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <h1 style="color:white;">My Details</h1>
+        </div>
+        <div class="header-2">
+            <label>Name: P Nithish </label>
+            <label>Reg Number: 2400089011 </label>
+            <label>Acadamic_Year: 2025-2026</label>
+            <label>Branch: AI&DS</label>
+            <label> </label>
+        </div>
+    </header>
+    <table border="1">
+            <tr>
+                <th>Day</th>
+                <th>7:10-8:00</th>
+                <th>8:00-8:50</th>
+                <th>9:20-10:10</th>
+                <th>10:10-11:00</th>
+                <th>11:10-12:00</th>
+                <th>12:00-12:50</th>
+                <th>12:50-1:50</th>
+                <th>1:50-2:40</th>
+                <th>2:40-3:30</th>
+                <th>3:50-4:40</th>
+                <th>4:40-5:30</th>
+            </tr>
+            <tr>
+                <td><b>Monday</b></td>
+                <td colspan="2">24AD2103L-L<br>S-S-1<br>RoomNo-M101</td>
+                <td colspan="2">24MT2019L-L<br>S-S-1<br>RoomNo-S918</td>
+                <td colspan="2">24SC2006L-S<br>S-S-1<br>RoomNo-R405B</td>
+                <td rowspan="6">L<br>U<br>N<br>C<br>H</td>
+                <td>24SDCS01L-L<br>S-S-1<br>RoomNo-M208</td>
+                <td>24CS2202L-L<br>L-S-1<br>RoomNo-M208</td>
+                <td colspan="2">23LE1003-L<br>L-S-1<br>RoomNo-C225</td>
+            </tr>
+            
+            <tr>
+                <td><b>Wednesday</b></td>
+                <td colspan="2">24SDCS01L-S<br>S-S-1<br>RoomNo-R607</td>
+                <td colspan="2">24SC2006L-L<br>S-S-1<br>RoomNo-S907</td>
+                <td colspan="2">24CS2202L-L<br>L-S-1<br>RoomNo-S902</td>
+                <td>-</td>
+                <td>24AD2103L-L<br>L-S-1<br>RoomNo-C309</td>
+                <td colspan="2">23LE1001-L<br>L-S-1<br>RoomNo-C225</td>
+            </tr>
+            <tr>
+                <td><b>Thursday</b></td>
+                <td colspan="2">-</td>
+                <td colspan="2">24AD2103L-P<br>P-S-1<br>RoomNo-C122</td>
+                <td colspan="2">24SC2006L-P<br>P-S-1<br>RoomNo-R301B</td>
+                <td colspan="2">-</td>
+                <td colspan="2">23LE1001-P<br>P-S-1<br>RoomNo-C225</td>
+            </tr>
+            <tr>
+                <td><b>Friday</b></td>
+                <td colspan="2">-</td>
+                <td colspan="2">24AD2001L-L<br>S-S-1<br>RoomNo-C122</td>
+                <td colspan="2">24MT2019L-T<br>T-S-1<br>RoomNo-C307</td>
+                <td colspan="4">-</td>
+            </tr>
+            <tr>
+                <td><b>Saturday</b></td>
+                <td colspan="2">24AD2001L-P<br>P-S-1<br>RoomNo-R005A</td>
+                <td colspan="2">24SDCS01L-S<br>S-S-1<br>RoomNo-C521B1</td>
+                <td colspan="2">24CS2202L-P<br>P-S-1<br>RoomNo-R206A</td>
+                <td>24SC2006L-L<br>S-1<br>RoomNo-C122</td>
+                <td>24AD2001L-L<br>L-S-1<br>RoomNo-C122</td>
+                <td colspan="2">24LE1002-P<br>P-S-1<br>RoomNo-C225</td>
+            </tr>
+        </table>
+        <footer>
+            <p> @Copyrights P Nithish | Year 2025</p>
+        </footer>
+</body>
+</html>
